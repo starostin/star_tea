@@ -1,7 +1,7 @@
 {
   "name": "star_tea",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "antd": "^5.14.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
