@@ -1,14 +1,20 @@
 {
   "name": "star-tea",
-  "private": false,
   "version": "1.0.1",
   "type": "module",
+  "author": "starostin",
+  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint star_tea --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starostin/star_tea.git"
+  },
+  "homepage": "https://github.com/starostin/star_tea#readme",
   "dependencies": {
     "antd": "^5.14.1",
     "react": "^18.2.0",
