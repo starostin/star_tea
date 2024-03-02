@@ -1,6 +1,6 @@
 {
   "name": "star-tea",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "type": "module",
   "author": "starostin",
   "license": "ISC",
@@ -10,7 +10,10 @@
     "lint": "eslint star_tea --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "repository": "https://github.com/starostin/star_tea.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starostin/star_tea.git"
+  },
   "homepage": "https://github.com/starostin/star_tea#readme",
   "dependencies": {
     "antd": "^5.14.1",
