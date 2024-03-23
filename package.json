@@ -1,8 +1,9 @@
 {
   "name": "star-tea",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "type": "module",
   "author": "starostin",
+  "description": "My project for tea testnet",
   "license": "ISC",
   "scripts": {
     "dev": "vite",
@@ -17,9 +18,16 @@
   "homepage": "https://github.com/starostin/star_tea#readme",
   "dependencies": {
     "antd": "^5.14.1",
+    "girulo": "^2.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "test-rokki": "^1.0.0"
+    "star-tea": "^1.0.7",
+    "test-rokki": "^1.0.0",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@nestjs/axios": "^2.0.0",
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "^2.3.1",
+    "@nestjs/core": "^9.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
@@ -32,5 +40,9 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
-  }
+  },
+  "keywords": [
+    "tea",
+    "star"
+  ]
 }
